@@ -102,6 +102,7 @@ main{}
     display: flex;
     justify-content: space-around;
     gap: 101px;
+    margin: 200px 0px;
 }
 .about_us_card{
     width: 30vw;
