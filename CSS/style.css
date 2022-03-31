@@ -6,6 +6,7 @@
 }
 body{
     font-family: 'Be Vietnam Pro', sans-serif;
+    
 }
 li{
     list-style: none;
@@ -46,11 +47,16 @@ header nav ol li:hover > a{
     color: #fff;
     border: none;
     cursor: pointer;
+    transition: 
+            background-color 0.5s,
+            color 0.5s ;
+
 }
 
 .get_started:hover{
     color: #ccc;
     background-color: #f57f62;
+
 }
 .menubtn{
     color:#242E52;
@@ -196,7 +202,6 @@ main{}
 
 .frame9{
     background-color: #F3603B;
-    width: 100vw;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -222,6 +227,10 @@ main{}
     height: 44px;
     border: none;
     color: #F3603B;
+    cursor: pointer;
+    transition: 
+            background-color 0.5s,
+            color 0.5s ;
 }
 .frame9 button:hover{
     background-color: #ccc;
@@ -234,7 +243,6 @@ main{}
     flex-wrap: wrap-reverse;
     justify-content: space-around;
     align-content: center;
-    width: 100vw;
 }
 .footer_firstpart{
     display: flex;
@@ -287,6 +295,7 @@ main{}
     border-radius: 50px;
     border:none;
     color: #fff;
+    cursor: pointer;
 }
 .input button:hover{
     color: #ccc;
@@ -300,7 +309,6 @@ main{}
     justify-content: flex-end;
     padding-right: 55px;
     padding-bottom: 10px;
-    width: 100vw;
 }
 .copyright p{
     font-size: 13px;
@@ -400,5 +408,5 @@ main{}
         gap: 25px;
     }
     .copyright p{
-        padding: 0px 0px;
+        padding: 0px auto;
     }}
